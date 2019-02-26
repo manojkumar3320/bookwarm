@@ -1,0 +1,43 @@
+.book-details{
+    text-align: left;
+}
+
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    height:40px;
+    width:100%;
+    max-width:400px;
+    margin-bottom: 10px;
+    margin:0 auto 10px;
+    padding:0 15px;
+    background: white url(caret-down.svg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x: 95%; 
+    
+}
+
+body{
+    padding:200px;
+
+}
+
+.wrapper{
+    width:100%;
+    max-width: 400px;
+    margin:0 auto;
+}
+
+select#book,.book-details{
+    display:none;
+
+}
+
+select #book,
+.book-details{
+    display: none;
+}
